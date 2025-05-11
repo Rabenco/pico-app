@@ -1,0 +1,26 @@
+# Ne pas versionner les fichiers générés automatiquement
+fichier_pdf_test/*.docx
+fichier_pdf_test/*.xlsx
+fichier_pdf_test/*.csv
+fichier_pdf_test/*.tmp
+fichier_pdf_test/*.png
+
+# Cache et fichiers temporaires Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.tmp
+*.DS_Store
+
+# Environnement virtuel local
+.env/
+.venv/
+venv/
+ENV/
+env/
+pico-env/
+
+# Fichiers Streamlit
+.streamlit/
